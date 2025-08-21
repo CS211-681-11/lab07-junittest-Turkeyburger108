@@ -17,6 +17,10 @@ public class StudentList {
             if (exist == null) {
                 students.add(new Student(id.trim(), name.trim()));
             }
+            //TODO(Terk) what'll happen when the id is the same.
+            else {
+
+            }
         }
     }
 
